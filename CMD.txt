@@ -1,0 +1,31 @@
+OCTRA COMMANDS
+
+
+STEP 1: WALLET GEN
+
+curl -fsSL https://bun.sh/install | bash
+source ~/ .bashrc
+  (remove space) 
+bun --version
+bun install
+bun run build
+bun start
+
+
+
+STEP 2: PRE CLIENT
+
+pip install -r requirements.txt
+cp wallet.json.example wallet.json
+
+TODO==>Now open wallet.json file and replace your Wallet address and private key. Use B64 Key only.
+
+./ run.sh
+(remove space)
+
+
+if balance not showing :
+
+python3 -m venv venv
+pip install --r requirements.txt
+cp wallet.json.example wallet.json
