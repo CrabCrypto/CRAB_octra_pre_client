@@ -20,7 +20,7 @@ cp wallet.json.example wallet.json
 
 TODO==>Now open wallet.json file and replace your Wallet address and private key. Use B64 Key only.
 
-./ run.sh
+./run.sh
 (remove space)
 
 
